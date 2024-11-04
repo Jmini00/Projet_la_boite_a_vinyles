@@ -44,8 +44,10 @@ Identifiants connexion
 
 
 
-![La Boite à Vinyles - Site Officiel pour les fans de vinyles](https://github.com/user-attachments/assets/4f333e80-9f0c-4e57-9176-cf0c23f6eca9)
+La Boite à Vinyles - Site Officiel pour les fans de vinyles](https://github.com/user-attachments/assets/4f333e80-9f0c-4e57-9176-cf0c23f6eca9)
+
+![![Tous les Vinyles - La Boite à Vinyles](https://github.com/user-attachments/assets/d0808d21-fc8d-4b93-a209-9200aeb404a5)
+
 ![Histoire du vinyle - La Boite à Vinyles![Tous les Vinyles - La Boite à Vinyles](https://github.com/user-attachments/assets/ee3409af-fb2b-4c67-8a08-9cb4b791dad4)
-](https://github.com/user-attachments/assets/ff5beb07-09b3-4ab6-98fd-0718f16072ea)
 
 
