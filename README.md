@@ -43,7 +43,8 @@ Identifiants connexion
 3. Profil Administrateur :         email: admin@admin.fr           password: Adminpassword00@
 
 
-Page d'accueil ![La Boite à Vinyles - Site Officiel pour les fans de vinyles](https://github.com/user-attachments/assets/1eec3811-f00a-4f05-94d7-dc54ec6f54a1)
+Page d'accueil ![La Boite à Vinyles - Site Officiel pour les fans de vinyles](https://github.com/user-attachments/assets/3bb86160-0a3e-491a-bd18-c2107ba5b80b)
+
 
 Page Tous les vinyles ![Tous les Vinyles - La Boite à Vinyles](https://github.com/user-attachments/assets/d0808d21-fc8d-4b93-a209-9200aeb404a5)
 
