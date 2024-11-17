@@ -66,26 +66,46 @@ Page Collection 60's/80's ![Collection 60's:80's - La Boite à Vinyles](https:/
 Page Détails vinyle ![Détails vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/67efcbdb-bcb3-4ce3-9a98-3f47f60ea2ac)
 
 
-Page Conseils 1 ![Nettoyer ses vinyles et entretenir sa platine - La Boite à Vinyles](https://github.com/user-attachments/assets/318ac853-92bd-4f48-b60f-5dceb67be4be)
-Page Conseils 2 ![Choisir un ampli pour sa platine vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/9abe1191-eaea-415c-85d7-4d15fa82ddd4)
-Page Conseils 3 ![Bien choisir sa platine vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/468bb2fb-2bd6-41fe-a625-c9c0efd3278a)
+Page Conseils 1 ![Nettoyer ses vinyles et entretenir sa platine - La Boite à Vinyles](https://github.com/user-attachments/assets/4b00a97e-c6f8-4c8d-8979-e9010c3f56a1)
 
-Page Histoire du vinyle ![Histoire du vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/5dcccd4d-9f79-4d56-b8e8-37c161c984f8)
-Page Charte de modération ![Charte de Modération - La Boite à Vinyles](https://github.com/user-attachments/assets/650ad146-b5a2-4bfc-a2b0-c3b85d79a3a3)
-Page Mentions Légales ![Mentions Légales - La Boite à Vinyles](https://github.com/user-attachments/assets/31397b3c-1ce9-47d1-9457-b50ff3a0fa94)
+Page Conseils 2 ![Choisir un ampli pour sa platine vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/fa6a2bef-8a05-4cd3-ba8a-15f4a3b6e3d3)
 
-Page Contact ![Contact - La Boite à Vinyles](https://github.com/user-attachments/assets/a08a5dc2-e474-401f-8295-3c33f8d7362b)
-Page Connexion ![Connexion - La Boite à Vinyles](https://github.com/user-attachments/assets/e9d1ee08-df8d-47fa-b6b5-610af080621b)
-Page Inscription ![Inscription - La Boite à Vinyles](https://github.com/user-attachments/assets/297f7557-5b2d-4061-8a1d-865da68ee8ae)
-Page Poster un commentaire ![Ajout de commentaire](https://github.com/user-attachments/assets/81704c59-2f32-49a7-b202-7b60dab8b5ee)
+Page Conseils 3 ![Bien choisir sa platine vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/b6dd59d4-ec19-4dbc-8dbc-54cca5cec098)
 
-Dashboard administrateur ![Dashboard](https://github.com/user-attachments/assets/b892d0d5-8ad5-4a48-ab4e-2654ba6a1ed6)
-Page Ajouter un artiste ![Ajout d'un artiste](https://github.com/user-attachments/assets/04a19f06-68dc-405f-a39e-78efab4dcd41)
-Page Ajouter un morceau ![Ajout d'un morceau](https://github.com/user-attachments/assets/e897a087-5bc1-474b-8ecc-b1245422b095)
-Page Ajouter une catégorie ![Ajout de catégories](https://github.com/user-attachments/assets/cb0121d3-f754-4641-a7d2-c334cc374893)
-Page Ajouter un pays ![Ajout de pays](https://github.com/user-attachments/assets/37d1b98b-1901-41b6-afbf-737ff110efab)
-Page Ajouter un vinyle ![Ajout de vinyles](https://github.com/user-attachments/assets/1c80caaa-77bd-4e45-899c-c2af7badfc47)
-Page Modifier un artiste ![Edition artiste](https://github.com/user-attachments/assets/fa947430-78a2-4758-b69d-f87ae3c0d482)
-Page Modifier un vinyle ![Edition vinyles](https://github.com/user-attachments/assets/bff69f13-7a45-4a84-b8e8-0e12465a6036)
-Page Modifier un membre ![Edition membres](https://github.com/user-attachments/assets/2908257e-0192-492b-b67c-8bbec8d2833d)
-Page Modifier un commentaire ![Edition commentaires](https://github.com/user-attachments/assets/7b1fa7fe-5713-43e6-bf51-06bdba5a531d)
+
+Page Histoire du vinyle ![Histoire du vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/16b1f1d5-1fab-40ff-a62b-2addc7167a6f)
+
+Page Charte de modération ![Charte de Modération - La Boite à Vinyles](https://github.com/user-attachments/assets/2fa06c6f-0743-420c-b518-56721e4cfe09)
+
+Page Mentions Légales ![Mentions Légales - La Boite à Vinyles](https://github.com/user-attachments/assets/10683e4b-a147-41d9-a315-15908911ab9d)
+
+
+Page Contact ![Contact - La Boite à Vinyles](https://github.com/user-attachments/assets/9080be6b-8947-4d42-a323-dfcdb24571b8)
+
+Page Connexion ![Connexion - La Boite à Vinyles](https://github.com/user-attachments/assets/42c9868b-0db6-40b6-96d1-4be8151d7644)
+
+Page Inscription ![Inscription - La Boite à Vinyles](https://github.com/user-attachments/assets/4c545864-b777-4013-b1d6-28c2d6789647)
+
+Page Poster un commentaire ![Ajout de commentaire](https://github.com/user-attachments/assets/fc759215-19a7-4307-8e4f-c0533d6590d0)
+
+
+Dashboard administrateur ![Dashboard](https://github.com/user-attachments/assets/10adf915-2a6f-4b27-aab8-c8b472f460a8)
+
+Page Ajouter un artiste ![Ajout d'un artiste](https://github.com/user-attachments/assets/6e02016a-c727-4c12-8186-e379763a1f5f)
+
+Page Ajouter un morceau ![Ajout d'un morceau](https://github.com/user-attachments/assets/4f5ce721-f181-467f-a99c-52a8b95b7363)
+
+Page Ajouter une catégorie ![Ajout de catégories](https://github.com/user-attachments/assets/0e661340-d215-498e-a04f-9ca5ca3f82be)
+
+Page Ajouter un pays ![Ajout de pays](https://github.com/user-attachments/assets/236c9bba-5658-4e9c-8047-5d4b56e027b1)
+
+Page Ajouter un vinyle ![Ajout de vinyles](https://github.com/user-attachments/assets/59a064da-bdf5-4b57-baab-b194fbb30a8f)
+
+Page Modifier un artiste ![Edition artiste](https://github.com/user-attachments/assets/e5fd90f4-7662-4009-a3f6-1121fad2b96f)
+
+Page Modifier un vinyle ![Edition vinyles](https://github.com/user-attachments/assets/304f94ed-a10a-4570-a110-7e25fb507678)
+
+Page Modifier un membre ![Edition membres](https://github.com/user-attachments/assets/54ee425d-d9ef-4ff5-8f2b-8806477e6dda)
+
+Page Modifier un commentaire ![Edition commentaires](https://github.com/user-attachments/assets/c158268d-b765-4ecf-8aa0-3008017073c7)
+
