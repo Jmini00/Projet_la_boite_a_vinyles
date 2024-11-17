@@ -45,11 +45,12 @@ Identifiants connexion
 
 Page d'accueil ![La Boite à Vinyles - Site Officiel pour les fans de vinyles](https://github.com/user-attachments/assets/3bb86160-0a3e-491a-bd18-c2107ba5b80b)
 
+Page Tous les vinyles ![Tous les Vinyles - La Boite à Vinyles](https://github.com/user-attachments/assets/893526ca-e852-4dee-97da-e91a539b6d6c)
 
-Page Tous les vinyles ![Tous les Vinyles - La Boite à Vinyles](https://github.com/user-attachments/assets/d0808d21-fc8d-4b93-a209-9200aeb404a5)
+Page Collection Rock ![Collection Rock - La Boite à Vinyles](https://github.com/user-attachments/assets/c934d38d-9476-42be-a1a8-e9e38774f26b)
 
-Page Collection Rock ![Collection Rock - La Boite à Vinyles](https://github.com/user-attachments/assets/924119cc-2acb-4ca1-abfa-9ca8132e7585)
-Page Collection Pop ![Collection Pop - La Boite à Vinyles](https://github.com/user-attachments/assets/05447976-15d8-4e1b-89a0-27c68e5aec0f)
+Page Collection Pop ![Collection Pop - La Boite à Vinyles](https://github.com/user-attachments/assets/3e4db2f4-f73d-461f-8ead-2aaa0c82f3db)
+
 Page Collection Pépites ![Collection Pépites - La Boite à Vinyles](https://github.com/user-attachments/assets/ded52c6f-947f-46d9-9b3f-4037308d4192)
 Page Collection Metal/Grunge ![Collection Metal:Grunge - La Boite à Vinyles](https://github.com/user-attachments/assets/241bc589-b27c-4839-aa81-8e4989077e29)
 Page Collection Live ![Collection Live:Original Soundtrack - La Boite à Vinyles](https://github.com/user-attachments/assets/1d296c1c-0a8f-4977-94e2-228e89535ab5)
