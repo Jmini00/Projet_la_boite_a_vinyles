@@ -51,13 +51,20 @@ Page Collection Rock ![Collection Rock - La Boite à Vinyles](https://github.co
 
 Page Collection Pop ![Collection Pop - La Boite à Vinyles](https://github.com/user-attachments/assets/3e4db2f4-f73d-461f-8ead-2aaa0c82f3db)
 
-Page Collection Pépites ![Collection Pépites - La Boite à Vinyles](https://github.com/user-attachments/assets/ded52c6f-947f-46d9-9b3f-4037308d4192)
-Page Collection Metal/Grunge ![Collection Metal:Grunge - La Boite à Vinyles](https://github.com/user-attachments/assets/241bc589-b27c-4839-aa81-8e4989077e29)
-Page Collection Live ![Collection Live:Original Soundtrack - La Boite à Vinyles](https://github.com/user-attachments/assets/1d296c1c-0a8f-4977-94e2-228e89535ab5)
-Page Collection Liam ![Collection Liam Gallagher - La Boite à Vinyles](https://github.com/user-attachments/assets/3b862f8e-40d1-4327-8eb7-98b6bf728d00)
-Page Collection UK ![Collection God save the King - La Boite à Vinyles](https://github.com/user-attachments/assets/1734d31b-0407-4e49-a29a-3a4fff307421)
-Page Collection 60's/80's ![Collection 60's:80's - La Boite à Vinyles](https://github.com/user-attachments/assets/0086ba1d-718d-4e1e-b46a-fb95ab0c1710)
-Page Détails vinyle ![Détails vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/a3fa5d9a-163d-409c-aed0-a40d3ad79cef)
+Page Collection Pépites ![Collection Pépites - La Boite à Vinyles](https://github.com/user-attachments/assets/93cf2f07-b5d4-4000-8fe6-7efb0304e1be)
+
+Page Collection Metal/Grunge ![Collection Metal:Grunge - La Boite à Vinyles](https://github.com/user-attachments/assets/ddd5f279-79b5-46ee-bd4a-e77b16bae4c5)
+
+Page Collection Live ![Collection Live:Original Soundtrack - La Boite à Vinyles](https://github.com/user-attachments/assets/4caf504b-bf0e-4b3f-9ed4-e3e77217a052)
+
+Page Collection Liam ![Collection Liam Gallagher - La Boite à Vinyles](https://github.com/user-attachments/assets/7202a7e7-163c-4cce-a2a5-83dc99c9b383)
+
+Page Collection UK ![Collection God save the King - La Boite à Vinyles](https://github.com/user-attachments/assets/f4b465d8-038e-4d13-8790-133b6c43deb3)
+
+Page Collection 60's/80's ![Collection 60's:80's - La Boite à Vinyles](https://github.com/user-attachments/assets/664364b6-4264-4e85-800e-e702dc281bec)
+
+Page Détails vinyle ![Détails vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/67efcbdb-bcb3-4ce3-9a98-3f47f60ea2ac)
+
 
 Page Conseils 1 ![Nettoyer ses vinyles et entretenir sa platine - La Boite à Vinyles](https://github.com/user-attachments/assets/318ac853-92bd-4f48-b60f-5dceb67be4be)
 Page Conseils 2 ![Choisir un ampli pour sa platine vinyle - La Boite à Vinyles](https://github.com/user-attachments/assets/9abe1191-eaea-415c-85d7-4d15fa82ddd4)
