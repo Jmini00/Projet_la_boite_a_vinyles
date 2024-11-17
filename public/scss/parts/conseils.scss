@@ -1,0 +1,55 @@
+@use '../_mixins' as m;
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../responsive' as r;
+
+#conseils {
+    @extend .align-horiz-space-evenly;
+    @include r.mobile {
+        height: fit-content;
+    }
+    height: v.$conseils-height;
+    background-color: map-get(map.$background, conseils);
+    margin: 5px 0;
+    font-size: map-get(map.$fonts-size, conseils);
+
+    article {
+        @include r.mobile {
+            width: 30%;
+        }
+        @include r.desktop {
+            width: 22rem;
+        }
+    }
+
+    img {
+        @include r.mobile {
+            margin: 10px 4px 2px 0;
+        }
+        @include r.tablet {
+            margin: 10px 4px 2px 0;
+        }
+        border-radius: 20px;
+        //margin: 10px 4px 2px 15px;
+    }
+
+    p {
+        padding: 10px 0;
+    }
+
+    a:hover {
+        color: v.$secondary-font-color;
+    }
+}
+
+#videos iframe {
+    @include r.mobile {
+        height: auto;
+        width: auto;
+    }
+    @include r.tablet {
+        height: 315px;
+        width: 500px;
+    }
+}

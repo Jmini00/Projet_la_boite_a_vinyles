@@ -1,0 +1,73 @@
+@use '_var' as v;
+@use '_maps' as map;
+@use '_class' as c;
+@use '_mixins' as m;
+@use '_anims' as a;
+@use '_responsive' as r;
+@use 'parts/header';
+@use 'parts/nav';
+@use 'parts/footer';
+@use 'parts/blockquote';
+@use 'parts/all_vinyls';
+@use 'parts/newsletter';
+@use 'parts/conseils';
+@use 'parts/focus';
+@use 'parts/divers';
+@use 'parts/main_slider';
+@use 'parts/details_vinyl';
+@use 'parts/genres';
+@use 'parts/collections';
+
+@font-face {
+    font-family: primary-font;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: secondary-font;
+    src: url(../fonts/Lobster_Two/LobsterTwo-Italic.ttf);
+}
+
+/* SELECTEURS BODY  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    @include r.mobile {
+        font-size: 11px;
+    }
+    @include r.tablet {
+        font-size: 15px;
+    }
+    @include r.desktop {
+        font-size: 18px;
+    }
+}
+
+body {
+    background-color: map-get(map.$background, site-light);
+    font-family: v.$primary-font, sans-serif;
+    color: v.$primary-font-color;
+    transition: 350ms ease-in-out;
+}
+
+strong {
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: v.$primary-font-color;
+    transition: all .7s;
+}
+
+@include m.position-fixed("chevron", "bottom", 9vh, "right", 1vw);

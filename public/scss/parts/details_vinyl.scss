@@ -1,0 +1,79 @@
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../mixins' as m;
+
+.details-vinyl {
+    @include m.container;
+
+    h3 {
+        font-size: map-get(map.$fonts-size, h3);
+        font-weight: normal;
+        text-align: center;
+        padding: 1em 0;
+      }
+
+    h4 {
+        text-transform: capitalize;
+        font-size: map-get(map.$fonts-size, album);
+        font-weight: normal;
+    }
+
+    h5 {
+        text-transform: uppercase;
+        font-size: map-get(map.$fonts-size, artiste);
+        font-weight: normal;
+    }
+
+    .fa-regular {
+        color: red;
+        cursor: pointer;
+    }
+    
+    h6 {
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: map-get(map.$fonts-size, artiste);
+        font-weight: normal;
+        margin-bottom: 10px
+    }
+
+    img {
+        @include m.img-shadow-black;
+    }
+
+    hr {
+        height: 5px;
+        background: map-get(map.$background, hr);
+        border: none;
+        margin: 30px 50px;
+    }
+
+    li {
+        list-style-type: decimal;
+    }
+
+    .comments {
+        margin: 20px 0;
+        hr {
+            height: 2px;
+            background: map-get(map.$background, site-dark);
+            border: none;
+            margin: 10px 200px;
+        }
+        a {
+            color: v.$primary-font-color;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    .comment-link {
+        color: blue;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

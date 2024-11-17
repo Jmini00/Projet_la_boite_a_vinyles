@@ -1,0 +1,74 @@
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../mixins' as m;
+@use '../responsive' as r;
+
+#news {
+    //@extend .align-horiz-space-evenly;
+    height: v.$slider-height;
+    background-color: map-get(map.$background, products);
+    margin: 5px 0;
+    //position: relative;
+    //overflow: hidden;
+    //align-items: center;
+    color: v.$secondary-font-color;
+
+    div:first-of-type {
+        @extend .align-horiz-space-evenly;
+        @include r.mobile {
+            height: 70%;
+            width: 95%;
+        }
+        @include r.tablet {
+            height: 75%;
+        }
+    }
+    img {
+        @include m.img-shadow-white;
+    }
+
+    h3 {
+        @include m.text-shadow-black;
+        font-size: map-get(map.$fonts-size, h3);
+        //margin-bottom: 25px;
+        text-transform: uppercase;
+        text-align: center
+    }
+
+    h4 {
+        @include m.text-shadow-black;
+        font-size: map-get(map.$fonts-size, h2);
+        margin-bottom: 25px;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        @include m.text-shadow-black;
+        font-size: map-get(map.$fonts-size, album);
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+
+    a {
+        color: v.$secondary-font-color;
+        &:hover {
+            color: v.$primary-font-color;
+        }
+    }
+
+    #news-content {
+        @extend .align-vertical;
+        justify-content: center;
+        text-align: center;
+        @include r.mobile {
+            height: auto;
+            width: auto;
+        }
+    }
+
+}
+
+
+
+

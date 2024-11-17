@@ -1,0 +1,116 @@
+@use '../_mixins' as m;
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../responsive' as r;
+
+#divers {
+    @extend .align-horiz-space-evenly;
+    height: v.$divers-height;
+    align-items: center;
+    text-align: center;
+
+    #accessoires {
+      @include r.mobile {
+        width: 12rem;
+        height: 12rem;
+      }
+      @include r.tablet {
+        width: 20rem;
+        height: 13rem;
+      }
+    }
+    
+    #goodies {
+      @include r.mobile {
+        width: 12rem;
+        height: 12rem;
+      }
+      @include r.tablet {
+        width: 20rem;
+        height: 13rem;
+      }
+    }
+
+    .snip1482 {
+        font-family: 'Poppins', Arial, sans-serif;
+        position: relative;
+        max-width: 20rem;
+        @include r.mobile {
+          min-width: 10rem;
+          min-height: 10rem;
+        }
+        @include r.tablet {
+          min-width: 14rem;
+          min-height: 13rem;
+        }
+        width: 100%;
+        color: #000000;
+        text-align: center;
+        line-height: 1.4em;
+        font-size: 1rem;
+      
+        * {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-transition: all 0.35s ease;
+          transition: all 0.35s ease;
+        }
+      
+        img {
+          position: absolute;
+          right: 0%;
+          top: 50%;
+          width: 82%;
+          border-radius: 20px;
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+          -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+        }
+      
+        figcaption {
+          position: absolute;
+          width: 50%;
+          top: 50%;
+          left: 0;
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+          @include r.tablet {
+            padding: 20px 0 20px 20px;
+          }
+        }
+      
+        h3, p {
+          margin: 0;
+          width: 100%;
+          -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+          opacity: 0;
+        }
+      
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 5px;
+        }
+      
+        p {
+          font-size: 0.8em;
+        }
+      
+        &:hover {
+          img {
+            width: 50%;
+            right: -10%;
+          }
+      
+          figcaption {
+            h3, p {
+              -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+              opacity: 1;
+            }
+          }
+        }
+      }
+       
+}

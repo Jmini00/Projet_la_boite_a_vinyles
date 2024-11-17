@@ -1,0 +1,39 @@
+
+.align-horiz {
+    display: flex;
+}
+
+.align-horiz-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-horiz-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.align-horiz-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.align-horiz-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.success {
+    color: green;
+}

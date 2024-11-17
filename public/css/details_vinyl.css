@@ -1,0 +1,114 @@
+.align-horiz {
+  display: flex;
+}
+
+.align-horiz-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-horiz-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.align-horiz-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.align-horiz-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.success {
+  color: green;
+}
+
+/*@mixin link-vinyl {
+  border: 1px solid v.$primary-font-color;
+  border-radius: 3px;
+  font-size: .8rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: v.$secondary-font-color;
+  padding: 2px;
+}*/
+.details-vinyl {
+  width: 80%;
+  margin: auto;
+  padding: 2em 0;
+}
+.details-vinyl h3 {
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: center;
+  padding: 1em 0;
+}
+.details-vinyl h4 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.details-vinyl h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.details-vinyl .fa-regular {
+  color: red;
+  cursor: pointer;
+}
+.details-vinyl h6 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.details-vinyl img {
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+.details-vinyl hr {
+  height: 5px;
+  background: #080f70;
+  border: none;
+  margin: 30px 50px;
+}
+.details-vinyl li {
+  list-style-type: decimal;
+}
+.details-vinyl .comments {
+  margin: 20px 0;
+}
+.details-vinyl .comments hr {
+  height: 2px;
+  background: rgb(60, 70, 94);
+  border: none;
+  margin: 10px 200px;
+}
+.details-vinyl .comments a {
+  color: #141313;
+}
+.details-vinyl .comments a:hover {
+  color: red;
+}
+.details-vinyl .comment-link {
+  color: blue;
+  text-decoration: underline;
+}
+.details-vinyl .comment-link:hover {
+  text-decoration: none;
+}

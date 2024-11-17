@@ -1,0 +1,34 @@
+@use '../_mixins' as m;
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+
+#newsletter {
+    @extend .align-horiz;
+        height: v.$newsletter-height;
+        background-color: map-get(map.$background, newsletter);
+        color: v.$secondary-font-color;
+        text-align: center;
+        justify-content: center;
+        padding: 1rem; 
+
+    >div {
+        width: v.$newsletter-width;
+    }
+
+    h3 {
+        font-size: map-get(map.$fonts-size, h3-newsletter);
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+
+    a {
+        color: v.$secondary-font-color;
+        border: v.$secondary-font-color solid 1px;
+        display: block;
+        text-transform: uppercase;
+        &:hover {
+            background-color: map-get(map.$background, products);
+    }
+}
+}

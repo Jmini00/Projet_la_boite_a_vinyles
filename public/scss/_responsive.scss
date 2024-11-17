@@ -1,0 +1,46 @@
+// mobiles max 767px
+$screen-mobile: 320px;
+
+// Tablets max 1023px
+$screen-tablet: 768px;
+
+// Desktop
+$screen-desktop: 1024px;
+
+/* Exemple
+// #primary-nav {
+    // desktop
+    background: v.$link-background;
+    
+    @include r.tablet {
+       display: none;
+    }
+    @include r.mobile {
+        display: block;
+        background: blue;
+     }
+
+ }*/
+
+// Small devices
+@mixin mobile {
+   @media (min-width: #{$screen-mobile}) {
+       @content;
+   }
+}
+
+// Tablet
+@mixin tablet {
+    @media (min-width: #{$screen-tablet}) {
+        @content;
+    }
+ }
+
+// Desktop
+@mixin desktop {
+    @media (min-width: #{$screen-desktop}) {
+        @content;
+    }
+ }
+ 
+ 

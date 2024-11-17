@@ -1,0 +1,72 @@
+@use '../_mixins' as m;
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../responsive' as r;
+
+@include m.icon-footer("mail", "\f0e0", "--fa-font-regular");
+@include m.icon-footer("facebook", "\f09a", "--fa-font-brands");
+@include m.icon-footer("linkedin", "\f0e1", "--fa-font-brands");
+@include m.pastille-footer("pastille", "\f111", "--fa-font-solid");
+
+
+footer {
+    @extend .align-vertical;
+    height: v.$footer-height;
+    margin: 5px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    ul {
+        @extend .align-horiz;
+    }
+}
+
+#social-media {
+    ul {
+        @extend .align-horiz;
+    }
+    li {
+      margin-right: 50px;
+  
+      &:last-of-type {
+        margin-right: 0;
+      }
+      &:hover {
+        transform: translateY(-10px);
+        transition: all .7s;
+      }
+    }
+  }
+  
+  #copyright {
+    font-size: map-get(map.$fonts-size, copyright);
+  }
+  
+  #mentions {
+    ul {
+        @extend .align-horiz;
+    }
+    li {
+      @include r.mobile {
+        margin-right: 5px;
+      }
+      @include r.tablet {
+        margin-right: 20px;
+      }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+  #dark-mode {
+    ul {
+        @extend .align-horiz;
+    }
+  li {
+    margin-right: 10px;
+  
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

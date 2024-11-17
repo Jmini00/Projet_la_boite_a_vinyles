@@ -1,0 +1,69 @@
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../mixins' as m;
+@use '../responsive' as r;
+
+#genres {
+    @extend .align-horiz-space-evenly;
+    @include r.mobile {
+      height: fit-content;
+      flex-direction: column;
+      gap: 5px;
+    }
+    @include r.tablet {
+      height: v.$genres-height;
+      flex-direction: row;
+    }
+    background-color: map-get(map.$background, genres);
+    align-items: center;
+  
+    p, a {
+      opacity: 0;
+      transition: .35s ease-in;
+      transform: translateY(0%);
+    }
+   
+  #pop {
+    @include m.genres;
+    background-color: #ffffff;
+    background-image: url(../assets/rock.webp);
+    color: v.$primary-font-color;
+  
+    &:hover p {
+      opacity: 1;
+      transition: .35s ease-in;
+      transform: translateY(350%);
+    }
+  }
+  
+  #metal:hover p, #live:hover p {
+    opacity: 1;
+    transition: .35s ease-in;
+    transform: translateY(350%);
+  }
+  
+  #pop:hover a, #metal:hover a, #live:hover a {
+    opacity: 1;
+    transition: .35s ease-in;
+    font-size: .6rem;
+  }
+  
+  #metal {
+    @include m.genres;
+    background-image: url(../assets/metal.webp);
+    color: v.$secondary-font-color;
+  
+    a {
+      color: v.$secondary-font-color;
+    }
+    
+  }
+  
+  #live {
+    @include m.genres;
+    background-color: v.$secondary-font-color;
+    background-image: url(../assets/live.webp);
+    color: v.$primary-font-color;
+  }
+}

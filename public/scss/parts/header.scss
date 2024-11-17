@@ -1,0 +1,113 @@
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../mixins' as m;
+@use '../anims' as a;
+@use '../responsive' as r;
+
+@include m.icon-header("user", "\f007", "--fa-font-solid");
+@include m.icon-header("search", "\f002", "--fa-font-solid");
+@include m.icon-header("register", "\f234", "--fa-font-solid");
+
+
+#header-top {
+    @extend .align-horiz-space-between;
+    padding: 20px 20px 0 20px;
+  
+    section:last-of-type .icon::before {
+      margin: 0 5px;
+    }
+    #user, #form {
+      @include r.mobile {
+        display: none;
+      }
+      @include r.desktop {
+        display: block;
+      }
+    }
+    #logo { 
+      @include r.mobile {
+        margin: auto;
+      }
+    }
+  }
+  
+  h1 {
+    //text-align: end;
+    font-family: v.$secondary-font, sans-serif;
+    font-size: map-get(map.$fonts-size, h1);
+    font-weight: normal;
+    position: relative;
+    top: -48px;
+    left: 27px;
+    //transition: 350ms ease-in-out;
+    
+  }
+
+  #banner {
+    @extend .align-vertical;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    @include r.mobile {
+      height: 18rem;
+    }
+    @include r.tablet {
+      height: v.$banner-height;
+    }
+    
+    //color: v.$secondary-font-color;
+    
+    h2 {
+      @include m.text-shadow-black;
+      text-align: center;
+      font-size: map-get(map.$fonts-size, h2);
+      font-weight: 600;
+    }
+    
+    ul {
+      @extend .align-vertical;
+      @include m.text-shadow-black;
+      align-items: end;
+      justify-content: end;
+      padding-right: 10px;
+      font-size: map-get(map.$fonts-size, banner);
+    }
+  
+    img {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  /* FLECHE BACK-TO-TOP */
+#back-to-top {
+  position: fixed;
+  @include r.mobile {
+    bottom: 5vh;
+    right: 5vw;
+    width: 19px;
+    height: 19px;
+  }
+  @include r.tablet {
+    bottom: 9vh;
+    right: 1vw;
+    width: 35px;
+    height: 35px;
+  }
+  background-color: map-get(map.$background, site-light);
+  text-align: center;
+  border-radius: 50%;
+  transition: all .5s;
+  z-index: 2;
+  //opacity: 0;
+  cursor: pointer;
+
+  &:hover {
+    transform: rotate(360deg);
+    //opacity: 1;
+    background-color: map-get(map.$background, navbar);
+  }
+}

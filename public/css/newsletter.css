@@ -1,0 +1,72 @@
+/*@mixin link-vinyl {
+  border: 1px solid v.$primary-font-color;
+  border-radius: 3px;
+  font-size: .8rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: v.$secondary-font-color;
+  padding: 2px;
+}*/
+.align-horiz, #newsletter {
+  display: flex;
+}
+
+.align-horiz-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-horiz-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.align-horiz-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.align-horiz-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.success {
+  color: green;
+}
+
+#newsletter {
+  height: 15rem;
+  background-color: #141313;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem;
+}
+#newsletter > div {
+  width: 23rem;
+}
+#newsletter h3 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+#newsletter a {
+  color: #ffffff;
+  border: #ffffff solid 1px;
+  display: block;
+  text-transform: uppercase;
+}
+#newsletter a:hover {
+  background-color: #0498c2;
+}

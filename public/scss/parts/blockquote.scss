@@ -1,0 +1,38 @@
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../mixins' as m;
+
+.blockquote {
+    @include m.container;
+  
+    img {
+      border-radius: 20px;
+    }
+  
+    h3 {
+      font-size: map-get(map.$fonts-size, h3);
+      text-align: center;
+      padding: 1em 0;
+    }
+  
+    h4 {
+      font-size: map-get(map.$fonts-size, h4);
+      padding: 1em 0;
+    }
+  
+    h5 {
+      font-size: map-get(map.$fonts-size, h5);
+      padding: .5em 0;
+    }
+
+    li {
+        list-style-type: disc;
+    }
+  }
+  
+  #videos {
+    padding-bottom: 5em;
+    text-align: center;
+  }
+  

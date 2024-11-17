@@ -1,0 +1,131 @@
+/*@mixin link-vinyl {
+  border: 1px solid v.$primary-font-color;
+  border-radius: 3px;
+  font-size: .8rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: v.$secondary-font-color;
+  padding: 2px;
+}*/
+.align-horiz, footer ul, #social-media ul, #mentions ul, #dark-mode ul {
+  display: flex;
+}
+
+.align-horiz-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-horiz-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.align-horiz-space-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.align-horiz-center {
+  display: flex;
+  justify-content: center;
+}
+
+.align-vertical, footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.success {
+  color: green;
+}
+
+/* Exemple
+// #primary-nav {
+    // desktop
+    background: v.$link-background;
+
+    @include r.tablet {
+       display: none;
+    }
+    @include r.mobile {
+        display: block;
+        background: blue;
+     }
+
+ }*/
+.icon-mail::before {
+  content: "\f0e0";
+  font: var(--fa-font-regular);
+  color: rgb(255, 0, 0);
+  font-size: 3rem;
+}
+
+.icon-facebook::before {
+  content: "\f09a";
+  font: var(--fa-font-brands);
+  color: rgb(255, 0, 0);
+  font-size: 3rem;
+}
+
+.icon-linkedin::before {
+  content: "\f0e1";
+  font: var(--fa-font-brands);
+  color: rgb(255, 0, 0);
+  font-size: 3rem;
+}
+
+.icon-pastille::after {
+  content: "\f111";
+  font: var(--fa-font-solid);
+  color: #141313;
+  font-size: 0.5rem;
+  margin-left: 1rem;
+}
+
+footer {
+  height: 9rem;
+  margin: 5px 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#social-media li {
+  margin-right: 50px;
+}
+#social-media li:last-of-type {
+  margin-right: 0;
+}
+#social-media li:hover {
+  transform: translateY(-10px);
+  transition: all 0.7s;
+}
+
+#copyright {
+  font-size: 0.7rem;
+}
+
+@media (min-width: 320px) {
+  #mentions li {
+    margin-right: 5px;
+  }
+}
+@media (min-width: 768px) {
+  #mentions li {
+    margin-right: 20px;
+  }
+}
+#mentions li:last-of-type {
+  margin-right: 0;
+}
+
+#dark-mode li {
+  margin-right: 10px;
+}
+#dark-mode li:last-of-type {
+  margin-right: 0;
+}

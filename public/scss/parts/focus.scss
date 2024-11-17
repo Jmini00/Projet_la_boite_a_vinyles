@@ -1,0 +1,57 @@
+@use '../_mixins' as m;
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../responsive' as r;
+
+#focus {
+    @extend .align-horiz-space-evenly;
+    @include r.mobile {
+        height: fit-content;
+    }
+    @include r.tablet {
+        height: v.$focus-height;
+    }
+    background-color: map-get(map.$background, focus);
+    margin: 5px 0;
+    align-items: center;
+
+    #focus-text {
+        @extend .align-vertical;
+        @include r.mobile {
+            width: auto;
+        }
+        @include r.tablet {
+            width: 35rem;
+        }
+    }
+
+    img {
+        @include m.img-shadow-black;
+    }
+
+    h3 {
+        @include m.text-shadow-black;
+        font-size: map-get(map.$fonts-size, h3);
+    }
+
+    h4 {
+        @include m.text-shadow-black;
+        font-size: map-get(map.$fonts-size, h4);
+    }
+
+    p {
+        @include m.text-shadow-black;
+        font-size: map-get(map.$fonts-size, h5);
+    }
+
+    a {
+        text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;
+    
+        &:hover {
+          color: v.$secondary-font-color;
+        }
+      }
+}

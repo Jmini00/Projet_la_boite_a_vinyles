@@ -1,0 +1,126 @@
+@use '../class' as c;
+@use '../var' as v;
+@use '../maps' as map;
+@use '../mixins' as m;
+@use '../_responsive' as r;
+
+@include m.icon-nav("turn-down", "\f3be", "--fa-font-solid");
+
+#navbar {
+  @include r.mobile {
+    display: none;
+ }
+  @include r.desktop {
+    display: block;
+}
+    i {
+      padding-left: 8px;
+    }
+  
+    ul {
+        @extend .align-horiz, .align-horiz-center;
+    }
+  
+    li a {
+      display: inline-block;
+      text-align: center;
+      padding: 5px 16px;
+      color: v.$primary-font-color;
+      transition: all .7s;
+    }
+  }
+  
+  .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 5px 16px;
+  }
+  
+  #navbar li a:hover, .dropdown:hover .dropbtn {
+    background-color: map-get(map.$background, navbar);
+  }
+  
+  li .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: map-get(map.$background, dropdown);
+    opacity: .7;
+    z-index: 1;
+  
+    a:hover {
+      background-color: map-get(map.$background, dropdown-content);
+    }
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  #side-nav {
+    position: fixed;
+    width: 70%;
+    height: 100vh;
+    background: map-get(map.$background, dropdown);
+    left: -100vw;
+    z-index: 2;
+    display: flex;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+    margin: auto;
+  }
+}
+  
+  
+  .sliderbtn {
+
+    @include r.desktop {
+      display: none;
+   }
+    cursor: pointer;
+    position: fixed;
+    //width: 55px;
+    //height: 55px;
+    //background: map-get(map.$background, newsletter);
+    //color: v.$secondary-font-color;
+    //border-radius: 50%;
+    top: 2vh;
+    left: 2vw;
+    z-index: 2;
+    //opacity: .9;
+  }
+   
+  .bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 4px;
+    background-color: map-get(map.$background, slider);
+    margin: 3px 0;
+    transition: 0.4s;
+    position: relative;
+    left: 10px;
+    top: 0;
+    //opacity: .9;
+  }
+  
+  .change {
+    .bar1 {
+      transform: translate(0, 3px) rotate(-45deg);
+    }
+  
+    .bar2 {
+      opacity: 0;
+    }
+  
+    .bar3 {
+      transform: translate(0, -11px) rotate(45deg);
+    }
+  }
+  
+  
