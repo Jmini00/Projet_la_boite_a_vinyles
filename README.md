@@ -36,11 +36,7 @@ Wireframes (cliquez sur "Overview" pour voir toutes les pages)
 
 
 
-Identifiants connexion 
 
-1. Profil Membre statut actif :    email: kurt01@test.fr           password: Userpassword00@
-2. Profil Membre statut bloqué :   email: jim02@test.fr            password: Userblockpassword00@
-3. Profil Administrateur :         email: admin@admin.fr           password: Adminpassword00@
 
 
 
