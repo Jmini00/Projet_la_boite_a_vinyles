@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dashboard</title>
+    <title>Dashboard administrateur</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./js/admin.js" defer></script>
@@ -25,45 +25,45 @@
             </div>
         <?php endif; ?>
 
-            <div class="container mx-auto">
-        <h2 id="members-btn" class="btn btn-outline-dark btn-sm">Liste membres</h2>
-        <table id="members-list" class="table table-hover">
-            <thead class="table-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Membres</th>
-                    <th scope="col">Prénom</th>
-                    <th scope="col">Nom</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Rôle</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($users as $user) : ?>
+        <div class="container mx-auto">
+            <h2 id="members-btn" class="btn btn-outline-dark btn-sm">Liste membres</h2>
+            <table id="members-list" class="table table-hover">
+                <thead class="table-dark">
                     <tr>
-                        <td class="py-4"><?= $user->getId(); ?></td>
-                        <td class="py-4"><?= $user->getUsername(); ?></td>
-                        <td class="py-4"><?= $user->getFirstname(); ?></td>
-                        <td class="py-4"><?= $user->getLastname(); ?></td>
-                        <td class="py-4"><?= $user->getEmail(); ?></td>
-                        <td class="py-4"><?= $user->getRole(); ?></td>
-                        <td class="py-4"><?= $user->getStatus(); ?></td>
-                        <td class="py-3">
-                            <a href="/laboiteavinyles/admin/edit/user?id=<?= $user->getId(); ?>" class="btn btn-outline-secondary btn-sm">
-                                Editer
-                            </a>
-                            <!--<a href="/laboiteavinyles/admin/delete/user?id=<?= $user->getId(); ?>" class="btn btn-outline-danger"
+                        <th scope="col">#</th>
+                        <th scope="col">Membres</th>
+                        <th scope="col">Prénom</th>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Rôle</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($users as $user) : ?>
+                        <tr>
+                            <td class="py-4"><?= $user->getId(); ?></td>
+                            <td class="py-4"><?= $user->getUsername(); ?></td>
+                            <td class="py-4"><?= $user->getFirstname(); ?></td>
+                            <td class="py-4"><?= $user->getLastname(); ?></td>
+                            <td class="py-4"><?= $user->getEmail(); ?></td>
+                            <td class="py-4"><?= $user->getRole(); ?></td>
+                            <td class="py-4"><?= $user->getStatus(); ?></td>
+                            <td class="py-3">
+                                <a href="/laboiteavinyles/admin/edit/user?id=<?= $user->getId(); ?>" class="btn btn-outline-secondary btn-sm">
+                                    Editer
+                                </a>
+                                <!--<a href="/laboiteavinyles/admin/delete/user?id=<?= $user->getId(); ?>" class="btn btn-outline-danger"
                                 onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce membre ?')">
                                     Supprimer
                                 </a>-->
-                        </td>
-                    </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
-        </div>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        
         <hr>
         <div class="d-flex justify-content-between align-items-center">
             <h2 id="artists-btn" class="btn btn-outline-dark btn-sm">Liste artistes</h2>
@@ -210,6 +210,7 @@
                 <?php endforeach; ?>
             </tbody>
         </table>
+    </div>
     </div>
 </body>
 

@@ -21,7 +21,7 @@ composer install
 ```
 
 3. Configuration de l'environnement :
-   Ouvrez le fichier `.env` et ajustez les configurations selon votre environnement.
+   Renommez .env.example en .env et ajustez les configurations selon votre environnement.
 
 4. Récupération du fichier base de données dans le dossier JURY
 

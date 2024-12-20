@@ -312,8 +312,8 @@ class VinyleRepository extends Database
         
         INNER JOIN artists
         ON vinyls.artist_id = artists.id
-        LIMIT 1
-        OFFSET 7");
+        ORDER BY RAND()
+        LIMIT 1");
         $vinyls = $query->fetchAll();
 
         foreach ($vinyls as $vinyl) {

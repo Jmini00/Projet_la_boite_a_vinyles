@@ -117,6 +117,6 @@ http://localhost:8888/laboiteavinyles/admin/edit/comment?id={$comment->getId()}"
         if ($phpmailer->send()) {
         }
 
-        header('Location: /laboiteavinyles?success=(signalement envoyé)');
+        header('Location: /laboiteavinyles?successreport=(signalement envoyé)');
     }
 }

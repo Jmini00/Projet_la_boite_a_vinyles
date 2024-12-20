@@ -10,9 +10,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="public/css/style.css">
     <script src="public/js/script.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="public/js/scrollreveal.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body data-theme="light">
+
+    <!-- Message de succès signalement commentaire-->
+    <?php if (isset($_GET['successlogin'])) : ?>
+        <script>
+            $(function() {
+                Swal.fire({
+                    position: "center",
+                    icon: "success",
+                    title: "Connexion réussie",
+                    text: "Bonjour <?= $_SESSION['user']->getFirstname(); ?> !",
+                    showConfirmButton: false,
+                    timer: 5000
+                });
+            });
+        </script>
+    <?php endif; ?>
 
     <div id="side-nav">
         <ul>
@@ -58,10 +78,10 @@
     <header>
         <div id="header-top" class="align-horiz-space-between">
             <section id="form">
-            <!--<form action="" method="get">-->
+                <!--<form action="" method="get">-->
                 <span><i class="icon icon-search"></i></span>
                 <input type="search" value="" placeholder="rechercher" size="10">
-            <!--</form>-->
+                <!--</form>-->
             </section>
             <div id="logo">
                 <img src="assets/logo_boiteavinyles2.webp" alt="logo La Boite à Vinyles">
@@ -75,11 +95,23 @@
                     <a href="/laboiteavinyles/login" class="icon icon-user">Connexion</a>
                     <a href="/laboiteavinyles/register" class="icon icon-register">Inscription</a>
                 <?php endif; ?>
-                <!-- Message de succès -->
-                <?php if (isset($_GET['success'])) : ?>
+                <!-- Message de succès signalement commentaire-->
+                <?php if (isset($_GET['successreport'])) : ?>
                     <div class="success">
-                        <?= $_GET['success']; ?>
+                        <?= $_GET['successreport']; ?>
                     </div>
+                    <script>
+                        $(function() {
+                            Swal.fire({
+                                position: "center",
+                                icon: "success",
+                                title: "Merci",
+                                text: "Votre signalement a bien été envoyé, il sera étudié par nos équipes",
+                                showConfirmButton: false,
+                                timer: 5000
+                            });
+                        });
+                    </script>
                 <?php endif; ?>
             </section>
         </div>
@@ -272,7 +304,7 @@
         <section id="social-media">
             <ul class="align-horiz">
                 <li><a href="#"><i class="icon icon-facebook"></i></a></li>
-                <li><a href="#"><i class="icon icon-linkedin"></i></a></li>
+                <li><a href="https://linkedin.com/in/jerome-talbot-a17aaa290" target="_blank"><i class="icon icon-linkedin"></i></a></li>
                 <li><a href="/laboiteavinyles/contact"><i class="icon icon-mail"></i></a></li>
             </ul>
         </section>

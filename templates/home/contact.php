@@ -9,21 +9,34 @@
     <title>Contact - La Boite à Vinyles</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="js/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--<script src="js/script.js" defer></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
 
     <div class="container mx-auto p-5">
-    <div class="d-flex justify-content-between align-items-center pb-5">
-        <h1>Formulaire de contact</h1>
-        <a href="/laboiteavinyles/" class="btn btn-primary btn-sm">Accueil</a>
-    </div>
+        <div class="d-flex justify-content-between align-items-center pb-5">
+            <h1>Formulaire de contact</h1>
+            <a href="/laboiteavinyles/" class="btn btn-primary btn-sm">Accueil</a>
+        </div>
         <!-- Message d'erreur -->
         <?php if (isset($error)) : ?>
             <div class="alert alert-danger">
                 <?= $error; ?>
             </div>
+            <script>
+                $(function() {
+                    Swal.fire({
+                        position: "center",
+                        icon: "error",
+                        title: "Veuillez vérifier les champs du formulaire de contact",
+                        showConfirmButton: false,
+                        timer: 2000
+                    });
+                });
+            </script>
         <?php endif; ?>
 
         <!-- Message de succès -->
@@ -31,6 +44,17 @@
             <div class="alert alert-success">
                 <?= $success; ?>
             </div>
+            <script>
+                $(function() {
+                    Swal.fire({
+                        position: "center",
+                        icon: "success",
+                        title: "Votre message a bien été envoyé",
+                        showConfirmButton: false,
+                        timer: 2000
+                    });
+                });
+            </script>
         <?php endif; ?>
 
         <form method="post" enctype="multipart/form-data">

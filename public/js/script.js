@@ -41,6 +41,7 @@ setInterval(() => {
     titre.classList.toggle('rubberBand');
 }, 7000);
 
+
 /// Loader
 const btConnect = document.getElementById('connect');
 const loader = document.querySelector('.loader');
@@ -151,5 +152,3 @@ if (e.target === modal) {
     }, 1000);*/
   
 
-
-  

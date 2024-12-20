@@ -1,6 +1,6 @@
-$(document).ready(function(){
+$(function(){
     $("#members-btn").click(function(){
-      $("#members-list").toggle(500);
+      $("#members-list").fadeToggle("slow");
     });
   });
 
@@ -33,4 +33,5 @@ $(document).ready(function(){
       $("#comments-list").toggle(500);
     });
   });
+
 

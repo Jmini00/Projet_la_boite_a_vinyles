@@ -9,9 +9,24 @@
     <title>Goodies - La Boite à Vinyles</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="public/js/script.js" defer></script>
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
 <body>
+
+<script>
+ $(function(){
+    Swal.fire({
+    position: "center",
+    icon: "info",
+    title: "Patience",
+    text: "Cette section sera disponible prochainement",
+    showConfirmButton: false,
+    timer: 2000
+});
+  });
+</script>
 
 <div id="side-nav">
         <ul>

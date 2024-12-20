@@ -53,7 +53,8 @@ class AuthController extends AbstractController
                     if ($token && ($_POST['token'] == $_SESSION['token'])) {
                         
                     // Redirection vers l'administration
-                    header('Location: /laboiteavinyles');
+                    //header('Location: /laboiteavinyles');
+                    header('Location: /laboiteavinyles?successlogin=connexion réussie');
                     exit;
                 } 
             }else {
