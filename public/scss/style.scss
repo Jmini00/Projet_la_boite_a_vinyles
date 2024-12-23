@@ -38,11 +38,15 @@
 }
 
 html {
+    transition: font-size 300ms ease;
     @include r.mobile {
-        font-size: 11px;
+        font-size: 50%;//11px
+    }
+    @include r.mobile-landscape {
+        font-size: 75%;
     }
     @include r.tablet {
-        font-size: 15px;
+        font-size: 85%;//15px
     }
     @include r.desktop {
         font-size: 18px;

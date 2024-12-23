@@ -9,7 +9,7 @@
     @include r.mobile {
       height: fit-content;
       flex-direction: column;
-      gap: 5px;
+      gap: 10px;
     }
     @include r.tablet {
       height: v.$genres-height;

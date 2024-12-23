@@ -767,7 +767,7 @@ footer {
 #news h4 {
   color: #ffffff;
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
-  font-size: 2.3rem;
+  font-size: 2rem;
   margin-bottom: 25px;
   text-transform: uppercase;
 }
@@ -872,7 +872,7 @@ footer {
     height: -moz-fit-content;
     height: fit-content;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
   }
 }
 @media (min-width: 768px) {
@@ -1060,14 +1060,22 @@ footer {
   text-decoration: none;
 }
 
+html {
+  transition: font-size 300ms ease;
+}
 @media (min-width: 320px) {
   html {
-    font-size: 11px;
+    font-size: 50%;
+  }
+}
+@media (min-width: 480px) {
+  html {
+    font-size: 75%;
   }
 }
 @media (min-width: 768px) {
   html {
-    font-size: 15px;
+    font-size: 85%;
   }
 }
 @media (min-width: 1024px) {

@@ -1,6 +1,9 @@
 // mobiles max 767px
 $screen-mobile: 320px;
 
+//mobile landscape
+$screen-mobile-landscape: 480px;
+
 // Tablets max 1023px
 $screen-tablet: 768px;
 
@@ -28,6 +31,12 @@ $screen-desktop: 1024px;
        @content;
    }
 }
+
+@mixin mobile-landscape {
+    @media (min-width: #{$screen-mobile-landscape}) {
+        @content;
+    }
+ }
 
 // Tablet
 @mixin tablet {

@@ -243,7 +243,7 @@
                 <figure class="snip1482">
                     <figcaption>
                         <h3>Accessoires</h3>
-                        <p>Découvrez notre sélection d'accessoires et de matériel audio.</p>
+                        <p>Découvrez notre sélection d'accessoires.</p>
                         <p><b>Section disponible prochainement !!</b></p>
                     </figcaption>
                     <img src="public/assets/accessoires.webp" alt="image categorie accessoires">

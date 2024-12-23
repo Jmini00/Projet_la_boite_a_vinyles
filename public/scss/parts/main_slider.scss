@@ -38,7 +38,7 @@
 
     h4 {
         @include m.text-shadow-black;
-        font-size: map-get(map.$fonts-size, h2);
+        font-size: map-get(map.$fonts-size, h4);
         margin-bottom: 25px;
         text-transform: uppercase;
     }

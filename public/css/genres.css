@@ -68,7 +68,7 @@
     height: -moz-fit-content;
     height: fit-content;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
   }
 }
 @media (min-width: 768px) {
