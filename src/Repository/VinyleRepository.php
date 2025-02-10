@@ -171,7 +171,7 @@ class VinyleRepository extends Database
         $query->bindValue(':release_date', $vinyle->getReleaseDate());
         $query->bindValue(':artist_id', $vinyle->getArtiste());
         $query->bindValue(':category_id', $vinyle->getCategorie());
-        $query->bindValue(':likes', $vinyle->getLikes());
+        $query->bindValue(':likes', $vinyle->getLikes()); 
 
         $query->execute();
 

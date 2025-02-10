@@ -18,7 +18,7 @@ class UploadService
             in_array($extension, ['png', 'gif', 'jpeg', 'jpg', 'webp'])
         ) {
             // Génère un nouveau pour l'image
-            $newName = md5(uniqid('', true)) .'.'. $extension;
+            $newName = md5(uniqid('', true)) .'.'. $extension; 
 
             // Si un ancien nom de fichier est fourni, on le supprime
             if ($deleteOldFile !== null) {
